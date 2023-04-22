@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440CDA4127D90A22002B8DBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374185276D549F00402DAF /* ContentView.swift */; };
+		440CDA4327D911DA002B8DBC /* CapsuleStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA4227D911DA002B8DBC /* CapsuleStatistic.swift */; };
+		440CDA4A27D9420D002B8DBC /* CoffeeForWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 440CDA4927D9420D002B8DBC /* CoffeeForWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		440CDA4F27D9420F002B8DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440CDA4E27D9420F002B8DBC /* Assets.xcassets */; };
+		440CDA5527D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 440CDA5427D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		440CDA5A27D9420F002B8DBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA5927D9420F002B8DBC /* ContentView.swift */; };
+		440CDA5C27D9420F002B8DBC /* CoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA5B27D9420F002B8DBC /* CoffeeApp.swift */; };
+		440CDA5E27D9420F002B8DBC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA5D27D9420F002B8DBC /* ComplicationController.swift */; };
+		440CDA6027D9420F002B8DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440CDA5F27D9420F002B8DBC /* Assets.xcassets */; };
+		440CDA6327D9420F002B8DBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440CDA6227D9420F002B8DBC /* Preview Assets.xcassets */; };
+		440CDA7027D942B8002B8DBC /* MachineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437419B276D65B400402DAF /* MachineModel.swift */; };
+		440CDA7127D942B8002B8DBC /* MACHINES.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8922770096100BC05FA /* MACHINES.json */; };
+		440CDA7227D942B8002B8DBC /* COFFEE.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8902770095700BC05FA /* COFFEE.json */; };
+		440CDA7327D942B8002B8DBC /* CapsuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374199276D5D2000402DAF /* CapsuleModel.swift */; };
+		440CDA7527D944A4002B8DBC /* CapsuleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374193276D594800402DAF /* CapsuleRow.swift */; };
+		440CDA7727D94525002B8DBC /* CapsuleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA7627D94525002B8DBC /* CapsuleDetail.swift */; };
+		440CDA7927D94618002B8DBC /* CapsuleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CDA7827D94618002B8DBC /* CapsuleList.swift */; };
+		440CDA7A27D9737F002B8DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44374187276D54A100402DAF /* Assets.xcassets */; };
+		44374184276D549F00402DAF /* CoffeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374183276D549F00402DAF /* CoffeeApp.swift */; };
+		44374186276D549F00402DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374185276D549F00402DAF /* ContentView.swift */; };
+		44374188276D54A100402DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44374187276D54A100402DAF /* Assets.xcassets */; };
+		4437418B276D54A100402DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4437418A276D54A100402DAF /* Preview Assets.xcassets */; };
+		44374192276D56C200402DAF /* CapsuleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374191276D56C200402DAF /* CapsuleList.swift */; };
+		44374194276D594800402DAF /* CapsuleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374193276D594800402DAF /* CapsuleRow.swift */; };
+		44374196276D59E200402DAF /* CapsuleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374195276D59E200402DAF /* CapsuleDetail.swift */; };
+		4437419A276D5D2000402DAF /* CapsuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374199276D5D2000402DAF /* CapsuleModel.swift */; };
+		4437419C276D65B400402DAF /* MachineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437419B276D65B400402DAF /* MachineModel.swift */; };
+		4437419F276D667D00402DAF /* MachineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437419E276D667D00402DAF /* MachineList.swift */; };
+		443741A1276D668900402DAF /* MachineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443741A0276D668900402DAF /* MachineRow.swift */; };
+		443741A4276D674C00402DAF /* MachineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443741A3276D674C00402DAF /* MachineDetail.swift */; };
+		4462D8BC276EC2AC00971990 /* CapsuleStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462D8BB276EC2AC00971990 /* CapsuleStatistic.swift */; };
+		446477B02771493E001384A3 /* YearList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477AF2771493E001384A3 /* YearList.swift */; };
+		447356C427D830B50076B1D6 /* CoffeeForMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447356C327D830B50076B1D6 /* CoffeeForMacApp.swift */; };
+		447356C827D830B60076B1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447356C727D830B60076B1D6 /* Assets.xcassets */; };
+		447356CB27D830B60076B1D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447356CA27D830B60076B1D6 /* Preview Assets.xcassets */; };
+		447356D027D831740076B1D6 /* MachineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437419B276D65B400402DAF /* MachineModel.swift */; };
+		447356D127D831740076B1D6 /* CapsuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374199276D5D2000402DAF /* CapsuleModel.swift */; };
+		447356D227D831740076B1D6 /* COFFEE.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8902770095700BC05FA /* COFFEE.json */; };
+		447356D327D831740076B1D6 /* MACHINES.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8922770096100BC05FA /* MACHINES.json */; };
+		447356D427D831E20076B1D6 /* CapsuleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374193276D594800402DAF /* CapsuleRow.swift */; };
+		447356D527D831E20076B1D6 /* CapsuleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374195276D59E200402DAF /* CapsuleDetail.swift */; };
+		447356D627D831E20076B1D6 /* CapsuleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44374191276D56C200402DAF /* CapsuleList.swift */; };
+		447356D827D831E20076B1D6 /* CapsuleNewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479EA522772513D00E38902 /* CapsuleNewData.swift */; };
+		447356D927D831E80076B1D6 /* MachineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4437419E276D667D00402DAF /* MachineList.swift */; };
+		447356DA27D831E80076B1D6 /* MachineStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448AE88E276FEB9400BC05FA /* MachineStatistic.swift */; };
+		447356DB27D831E80076B1D6 /* MachineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443741A3276D674C00402DAF /* MachineDetail.swift */; };
+		447356DC27D831E80076B1D6 /* MachineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443741A0276D668900402DAF /* MachineRow.swift */; };
+		447356DD27D831EC0076B1D6 /* YearList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446477AF2771493E001384A3 /* YearList.swift */; };
+		447356DE27D833C20076B1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44374187276D54A100402DAF /* Assets.xcassets */; };
+		4479EA532772513D00E38902 /* CapsuleNewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479EA522772513D00E38902 /* CapsuleNewData.swift */; };
+		448AE88F276FEB9400BC05FA /* MachineStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448AE88E276FEB9400BC05FA /* MachineStatistic.swift */; };
+		448AE8912770095700BC05FA /* COFFEE.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8902770095700BC05FA /* COFFEE.json */; };
+		448AE8932770096100BC05FA /* MACHINES.json in Resources */ = {isa = PBXBuildFile; fileRef = 448AE8922770096100BC05FA /* MACHINES.json */; };
+		44AB02FC2809A2C900EAFE45 /* AddCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB02FB2809A2C900EAFE45 /* AddCapsule.swift */; };
+		44AB02FD2809A2C900EAFE45 /* AddCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB02FB2809A2C900EAFE45 /* AddCapsule.swift */; };
+		44DFCC7E27DA6AB100031B98 /* MachineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFCC7D27DA6AB100031B98 /* MachineList.swift */; };
+		44DFCC7F27DA6B4E00031B98 /* MachineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443741A0276D668900402DAF /* MachineRow.swift */; };
+		44DFCC8127DA6B8D00031B98 /* MachineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFCC8027DA6B8D00031B98 /* MachineDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440CDA4B27D9420D002B8DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44374178276D549F00402DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440CDA4827D9420D002B8DBC;
+			remoteInfo = "CoffeeForWatch WatchKit App";
+		};
+		440CDA5627D9420F002B8DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44374178276D549F00402DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440CDA5327D9420F002B8DBC;
+			remoteInfo = "CoffeeForWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		440CDA6827D9420F002B8DBC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				440CDA5527D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440CDA6C27D9420F002B8DBC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				440CDA4A27D9420D002B8DBC /* CoffeeForWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		440CDA4227D911DA002B8DBC /* CapsuleStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleStatistic.swift; sourceTree = "<group>"; };
+		440CDA4627D9420D002B8DBC /* CoffeeForWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeForWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		440CDA4927D9420D002B8DBC /* CoffeeForWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoffeeForWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440CDA4E27D9420F002B8DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440CDA5427D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoffeeForWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440CDA5927D9420F002B8DBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		440CDA5B27D9420F002B8DBC /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
+		440CDA5D27D9420F002B8DBC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		440CDA5F27D9420F002B8DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		440CDA6227D9420F002B8DBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		440CDA6427D9420F002B8DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440CDA7627D94525002B8DBC /* CapsuleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleDetail.swift; sourceTree = "<group>"; };
+		440CDA7827D94618002B8DBC /* CapsuleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleList.swift; sourceTree = "<group>"; };
+		44374180276D549F00402DAF /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44374183276D549F00402DAF /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
+		44374185276D549F00402DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44374187276D54A100402DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4437418A276D54A100402DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44374191276D56C200402DAF /* CapsuleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleList.swift; sourceTree = "<group>"; };
+		44374193276D594800402DAF /* CapsuleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRow.swift; sourceTree = "<group>"; };
+		44374195276D59E200402DAF /* CapsuleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleDetail.swift; sourceTree = "<group>"; };
+		44374199276D5D2000402DAF /* CapsuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleModel.swift; sourceTree = "<group>"; };
+		4437419B276D65B400402DAF /* MachineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineModel.swift; sourceTree = "<group>"; };
+		4437419E276D667D00402DAF /* MachineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineList.swift; sourceTree = "<group>"; };
+		443741A0276D668900402DAF /* MachineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineRow.swift; sourceTree = "<group>"; };
+		443741A3276D674C00402DAF /* MachineDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineDetail.swift; sourceTree = "<group>"; };
+		4462D8BB276EC2AC00971990 /* CapsuleStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleStatistic.swift; sourceTree = "<group>"; };
+		446477AF2771493E001384A3 /* YearList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearList.swift; sourceTree = "<group>"; };
+		447356C127D830B50076B1D6 /* CoffeeForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		447356C327D830B50076B1D6 /* CoffeeForMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeForMacApp.swift; sourceTree = "<group>"; };
+		447356C727D830B60076B1D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447356CA27D830B60076B1D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		447356CC27D830B60076B1D6 /* CoffeeForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeForMac.entitlements; sourceTree = "<group>"; };
+		4479EA522772513D00E38902 /* CapsuleNewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleNewData.swift; sourceTree = "<group>"; };
+		448AE88E276FEB9400BC05FA /* MachineStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineStatistic.swift; sourceTree = "<group>"; };
+		448AE8902770095700BC05FA /* COFFEE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = COFFEE.json; sourceTree = "<group>"; };
+		448AE8922770096100BC05FA /* MACHINES.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MACHINES.json; sourceTree = "<group>"; };
+		44AB02FB2809A2C900EAFE45 /* AddCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCapsule.swift; sourceTree = "<group>"; };
+		44DFCC7D27DA6AB100031B98 /* MachineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineList.swift; sourceTree = "<group>"; };
+		44DFCC8027DA6B8D00031B98 /* MachineDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440CDA5127D9420F002B8DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4437417D276D549F00402DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447356BE27D830B50076B1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440CDA4D27D9420D002B8DBC /* CoffeeForWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				440CDA4E27D9420F002B8DBC /* Assets.xcassets */,
+			);
+			path = "CoffeeForWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		440CDA5827D9420F002B8DBC /* CoffeeForWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				440CDA5B27D9420F002B8DBC /* CoffeeApp.swift */,
+				440CDA5927D9420F002B8DBC /* ContentView.swift */,
+				440CDA7827D94618002B8DBC /* CapsuleList.swift */,
+				440CDA7627D94525002B8DBC /* CapsuleDetail.swift */,
+				44DFCC7D27DA6AB100031B98 /* MachineList.swift */,
+				44DFCC8027DA6B8D00031B98 /* MachineDetail.swift */,
+				440CDA5D27D9420F002B8DBC /* ComplicationController.swift */,
+				440CDA5F27D9420F002B8DBC /* Assets.xcassets */,
+				440CDA6427D9420F002B8DBC /* Info.plist */,
+				440CDA6127D9420F002B8DBC /* Preview Content */,
+			);
+			path = "CoffeeForWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		440CDA6127D9420F002B8DBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				440CDA6227D9420F002B8DBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44374177276D549F00402DAF = {
+			isa = PBXGroup;
+			children = (
+				44374182276D549F00402DAF /* Coffee */,
+				447356C227D830B50076B1D6 /* CoffeeForMac */,
+				440CDA4D27D9420D002B8DBC /* CoffeeForWatch WatchKit App */,
+				440CDA5827D9420F002B8DBC /* CoffeeForWatch WatchKit Extension */,
+				44374181276D549F00402DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44374181276D549F00402DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44374180276D549F00402DAF /* Coffee.app */,
+				447356C127D830B50076B1D6 /* CoffeeForMac.app */,
+				440CDA4627D9420D002B8DBC /* CoffeeForWatch.app */,
+				440CDA4927D9420D002B8DBC /* CoffeeForWatch WatchKit App.app */,
+				440CDA5427D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44374182276D549F00402DAF /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				44374183276D549F00402DAF /* CoffeeApp.swift */,
+				44374198276D5CD900402DAF /* Views */,
+				4437419D276D65F300402DAF /* Model */,
+				44374187276D54A100402DAF /* Assets.xcassets */,
+				44374189276D54A100402DAF /* Preview Content */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		44374189276D54A100402DAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4437418A276D54A100402DAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44374197276D5CAE00402DAF /* Capsules */ = {
+			isa = PBXGroup;
+			children = (
+				44374191276D56C200402DAF /* CapsuleList.swift */,
+				44374193276D594800402DAF /* CapsuleRow.swift */,
+				44374195276D59E200402DAF /* CapsuleDetail.swift */,
+				4462D8BB276EC2AC00971990 /* CapsuleStatistic.swift */,
+				4479EA522772513D00E38902 /* CapsuleNewData.swift */,
+				44AB02FB2809A2C900EAFE45 /* AddCapsule.swift */,
+			);
+			path = Capsules;
+			sourceTree = "<group>";
+		};
+		44374198276D5CD900402DAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44374185276D549F00402DAF /* ContentView.swift */,
+				44374197276D5CAE00402DAF /* Capsules */,
+				443741A2276D669300402DAF /* Machines */,
+				446477AE277148F9001384A3 /* Years */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4437419D276D65F300402DAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44374199276D5D2000402DAF /* CapsuleModel.swift */,
+				448AE8902770095700BC05FA /* COFFEE.json */,
+				4437419B276D65B400402DAF /* MachineModel.swift */,
+				448AE8922770096100BC05FA /* MACHINES.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		443741A2276D669300402DAF /* Machines */ = {
+			isa = PBXGroup;
+			children = (
+				4437419E276D667D00402DAF /* MachineList.swift */,
+				443741A0276D668900402DAF /* MachineRow.swift */,
+				443741A3276D674C00402DAF /* MachineDetail.swift */,
+				448AE88E276FEB9400BC05FA /* MachineStatistic.swift */,
+			);
+			path = Machines;
+			sourceTree = "<group>";
+		};
+		446477AE277148F9001384A3 /* Years */ = {
+			isa = PBXGroup;
+			children = (
+				446477AF2771493E001384A3 /* YearList.swift */,
+			);
+			path = Years;
+			sourceTree = "<group>";
+		};
+		447356C227D830B50076B1D6 /* CoffeeForMac */ = {
+			isa = PBXGroup;
+			children = (
+				447356C327D830B50076B1D6 /* CoffeeForMacApp.swift */,
+				440CDA4227D911DA002B8DBC /* CapsuleStatistic.swift */,
+				447356C727D830B60076B1D6 /* Assets.xcassets */,
+				447356CC27D830B60076B1D6 /* CoffeeForMac.entitlements */,
+				447356C927D830B60076B1D6 /* Preview Content */,
+			);
+			path = CoffeeForMac;
+			sourceTree = "<group>";
+		};
+		447356C927D830B60076B1D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				447356CA27D830B60076B1D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440CDA4527D9420D002B8DBC /* CoffeeForWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440CDA6D27D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch" */;
+			buildPhases = (
+				440CDA4427D9420D002B8DBC /* Resources */,
+				440CDA6C27D9420F002B8DBC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440CDA4C27D9420D002B8DBC /* PBXTargetDependency */,
+			);
+			name = CoffeeForWatch;
+			productName = CoffeeForWatch;
+			productReference = 440CDA4627D9420D002B8DBC /* CoffeeForWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		440CDA4827D9420D002B8DBC /* CoffeeForWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440CDA6927D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch WatchKit App" */;
+			buildPhases = (
+				440CDA4727D9420D002B8DBC /* Resources */,
+				440CDA6827D9420F002B8DBC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440CDA5727D9420F002B8DBC /* PBXTargetDependency */,
+			);
+			name = "CoffeeForWatch WatchKit App";
+			productName = "CoffeeForWatch WatchKit App";
+			productReference = 440CDA4927D9420D002B8DBC /* CoffeeForWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		440CDA5327D9420F002B8DBC /* CoffeeForWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440CDA6527D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch WatchKit Extension" */;
+			buildPhases = (
+				440CDA5027D9420F002B8DBC /* Sources */,
+				440CDA5127D9420F002B8DBC /* Frameworks */,
+				440CDA5227D9420F002B8DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoffeeForWatch WatchKit Extension";
+			productName = "CoffeeForWatch WatchKit Extension";
+			productReference = 440CDA5427D9420F002B8DBC /* CoffeeForWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4437417F276D549F00402DAF /* Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4437418E276D54A100402DAF /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildPhases = (
+				4437417C276D549F00402DAF /* Sources */,
+				4437417D276D549F00402DAF /* Frameworks */,
+				4437417E276D549F00402DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coffee;
+			productName = Coffee;
+			productReference = 44374180276D549F00402DAF /* Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		447356C027D830B50076B1D6 /* CoffeeForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447356CF27D830B60076B1D6 /* Build configuration list for PBXNativeTarget "CoffeeForMac" */;
+			buildPhases = (
+				447356BD27D830B50076B1D6 /* Sources */,
+				447356BE27D830B50076B1D6 /* Frameworks */,
+				447356BF27D830B50076B1D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeForMac;
+			productName = CoffeeForMac;
+			productReference = 447356C127D830B50076B1D6 /* CoffeeForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44374178276D549F00402DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					440CDA4527D9420D002B8DBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					440CDA4827D9420D002B8DBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					440CDA5327D9420F002B8DBC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4437417F276D549F00402DAF = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					447356C027D830B50076B1D6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4437417B276D549F00402DAF /* Build configuration list for PBXProject "Coffee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44374177276D549F00402DAF;
+			productRefGroup = 44374181276D549F00402DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4437417F276D549F00402DAF /* Coffee */,
+				447356C027D830B50076B1D6 /* CoffeeForMac */,
+				440CDA4527D9420D002B8DBC /* CoffeeForWatch */,
+				440CDA4827D9420D002B8DBC /* CoffeeForWatch WatchKit App */,
+				440CDA5327D9420F002B8DBC /* CoffeeForWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440CDA4427D9420D002B8DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440CDA4727D9420D002B8DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440CDA4F27D9420F002B8DBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440CDA5227D9420F002B8DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440CDA6327D9420F002B8DBC /* Preview Assets.xcassets in Resources */,
+				440CDA6027D9420F002B8DBC /* Assets.xcassets in Resources */,
+				440CDA7127D942B8002B8DBC /* MACHINES.json in Resources */,
+				440CDA7227D942B8002B8DBC /* COFFEE.json in Resources */,
+				440CDA7A27D9737F002B8DBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4437417E276D549F00402DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448AE8912770095700BC05FA /* COFFEE.json in Resources */,
+				448AE8932770096100BC05FA /* MACHINES.json in Resources */,
+				4437418B276D54A100402DAF /* Preview Assets.xcassets in Resources */,
+				44374188276D54A100402DAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447356BF27D830B50076B1D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447356D227D831740076B1D6 /* COFFEE.json in Resources */,
+				447356D327D831740076B1D6 /* MACHINES.json in Resources */,
+				447356CB27D830B60076B1D6 /* Preview Assets.xcassets in Resources */,
+				447356C827D830B60076B1D6 /* Assets.xcassets in Resources */,
+				447356DE27D833C20076B1D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440CDA5027D9420F002B8DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DFCC7E27DA6AB100031B98 /* MachineList.swift in Sources */,
+				440CDA5A27D9420F002B8DBC /* ContentView.swift in Sources */,
+				440CDA5C27D9420F002B8DBC /* CoffeeApp.swift in Sources */,
+				440CDA7327D942B8002B8DBC /* CapsuleModel.swift in Sources */,
+				440CDA7527D944A4002B8DBC /* CapsuleRow.swift in Sources */,
+				440CDA5E27D9420F002B8DBC /* ComplicationController.swift in Sources */,
+				440CDA7927D94618002B8DBC /* CapsuleList.swift in Sources */,
+				44DFCC8127DA6B8D00031B98 /* MachineDetail.swift in Sources */,
+				440CDA7727D94525002B8DBC /* CapsuleDetail.swift in Sources */,
+				44DFCC7F27DA6B4E00031B98 /* MachineRow.swift in Sources */,
+				440CDA7027D942B8002B8DBC /* MachineModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4437417C276D549F00402DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443741A4276D674C00402DAF /* MachineDetail.swift in Sources */,
+				443741A1276D668900402DAF /* MachineRow.swift in Sources */,
+				4479EA532772513D00E38902 /* CapsuleNewData.swift in Sources */,
+				44374196276D59E200402DAF /* CapsuleDetail.swift in Sources */,
+				4437419C276D65B400402DAF /* MachineModel.swift in Sources */,
+				44374194276D594800402DAF /* CapsuleRow.swift in Sources */,
+				44AB02FC2809A2C900EAFE45 /* AddCapsule.swift in Sources */,
+				44374186276D549F00402DAF /* ContentView.swift in Sources */,
+				4437419A276D5D2000402DAF /* CapsuleModel.swift in Sources */,
+				446477B02771493E001384A3 /* YearList.swift in Sources */,
+				4462D8BC276EC2AC00971990 /* CapsuleStatistic.swift in Sources */,
+				4437419F276D667D00402DAF /* MachineList.swift in Sources */,
+				44374192276D56C200402DAF /* CapsuleList.swift in Sources */,
+				448AE88F276FEB9400BC05FA /* MachineStatistic.swift in Sources */,
+				44374184276D549F00402DAF /* CoffeeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447356BD27D830B50076B1D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447356DA27D831E80076B1D6 /* MachineStatistic.swift in Sources */,
+				447356D027D831740076B1D6 /* MachineModel.swift in Sources */,
+				440CDA4127D90A22002B8DBC /* ContentView.swift in Sources */,
+				447356DB27D831E80076B1D6 /* MachineDetail.swift in Sources */,
+				440CDA4327D911DA002B8DBC /* CapsuleStatistic.swift in Sources */,
+				447356D827D831E20076B1D6 /* CapsuleNewData.swift in Sources */,
+				44AB02FD2809A2C900EAFE45 /* AddCapsule.swift in Sources */,
+				447356D427D831E20076B1D6 /* CapsuleRow.swift in Sources */,
+				447356D527D831E20076B1D6 /* CapsuleDetail.swift in Sources */,
+				447356D627D831E20076B1D6 /* CapsuleList.swift in Sources */,
+				447356C427D830B50076B1D6 /* CoffeeForMacApp.swift in Sources */,
+				447356D927D831E80076B1D6 /* MachineList.swift in Sources */,
+				447356DD27D831EC0076B1D6 /* YearList.swift in Sources */,
+				447356DC27D831E80076B1D6 /* MachineRow.swift in Sources */,
+				447356D127D831740076B1D6 /* CapsuleModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440CDA4C27D9420D002B8DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440CDA4827D9420D002B8DBC /* CoffeeForWatch WatchKit App */;
+			targetProxy = 440CDA4B27D9420D002B8DBC /* PBXContainerItemProxy */;
+		};
+		440CDA5727D9420F002B8DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440CDA5327D9420F002B8DBC /* CoffeeForWatch WatchKit Extension */;
+			targetProxy = 440CDA5627D9420F002B8DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		440CDA6627D9420F002B8DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeForWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeeForWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CoffeeForWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		440CDA6727D9420F002B8DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeForWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeeForWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CoffeeForWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		440CDA6A27D9420F002B8DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CoffeeForWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CoffeeForWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		440CDA6B27D9420F002B8DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CoffeeForWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "CoffeeForWatch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		440CDA6E27D9420F002B8DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		440CDA6F27D9420F002B8DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4437418C276D54A100402DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4437418D276D54A100402DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4437418F276D54A100402DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.Coffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44374190276D54A100402DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.Coffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		447356CD27D830B60076B1D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoffeeForMac/CoffeeForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		447356CE27D830B60076B1D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoffeeForMac/CoffeeForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeeForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.CoffeeForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440CDA6527D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440CDA6627D9420F002B8DBC /* Debug */,
+				440CDA6727D9420F002B8DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440CDA6927D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440CDA6A27D9420F002B8DBC /* Debug */,
+				440CDA6B27D9420F002B8DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440CDA6D27D9420F002B8DBC /* Build configuration list for PBXNativeTarget "CoffeeForWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440CDA6E27D9420F002B8DBC /* Debug */,
+				440CDA6F27D9420F002B8DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4437417B276D549F00402DAF /* Build configuration list for PBXProject "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4437418C276D54A100402DAF /* Debug */,
+				4437418D276D54A100402DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4437418E276D54A100402DAF /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4437418F276D54A100402DAF /* Debug */,
+				44374190276D54A100402DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447356CF27D830B60076B1D6 /* Build configuration list for PBXNativeTarget "CoffeeForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447356CD27D830B60076B1D6 /* Debug */,
+				447356CE27D830B60076B1D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44374178276D549F00402DAF /* Project object */;
+}
