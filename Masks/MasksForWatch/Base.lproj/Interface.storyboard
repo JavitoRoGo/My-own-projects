@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19162" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch40"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19044"/>
+    </dependencies>
+    <scenes>
+        <!--Table Interface Controller-->
+        <scene sceneID="DR4-TN-1T9">
+            <objects>
+                <controller id="DZH-0K-GyI" customClass="TableInterfaceController" customModule="MasksForWatch" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="78R-Pg-jEn">
+                            <items>
+                                <tableRow identifier="Row" id="VOW-NQ-gOM" customClass="MaskRow" customModule="MasksForWatch" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="CSM-YW-20I">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="ggq-z4-gol"/>
+                                            <label alignment="right" verticalAlignment="center" text="Label" id="tou-ir-Mxa"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="TaQ-uj-te6" kind="push" identifier="mySecondSegue" id="uQx-6Z-QlC"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="numLabel" destination="tou-ir-Mxa" id="BLk-q4-gJH"/>
+                                        <outlet property="textLabel" destination="ggq-z4-gol" id="jZL-vB-bBH"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="78R-Pg-jEn" id="Xp3-KF-4ji"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="561" y="25"/>
+        </scene>
+        <!--Add New Interface Controller-->
+        <scene sceneID="DHn-gO-BAx">
+            <objects>
+                <controller id="TaQ-uj-te6" customClass="AddNewInterfaceController" customModule="MasksForWatch" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Label" id="LgS-H8-66U"/>
+                        <label alignment="center" text="Label" id="fRb-Md-H7X"/>
+                        <button width="0.5" alignment="center" verticalAlignment="bottom" title="+" id="f7r-3k-j1q">
+                            <fontDescription key="font" type="system" pointSize="50"/>
+                            <connections>
+                                <action selector="addNewWash" destination="TaQ-uj-te6" id="mH8-Yr-DAA"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="dateLabel" destination="fRb-Md-H7X" id="Br2-Un-jlO"/>
+                        <outlet property="washLabel" destination="LgS-H8-66U" id="NE2-FK-0Az"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="885" y="25"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MasksForWatch" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="RsV-lq-nYr">
+                            <items>
+                                <tableRow identifier="zelda" id="khr-ZF-ozm" customClass="MyRowController" customModule="MasksForWatch_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" spacing="72" id="3fS-lM-09c">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Nombre" textAlignment="left" id="d8H-ru-E1x"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="DZH-0K-GyI" kind="push" identifier="mySegue" id="1gU-V2-jU4"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="ownerLabel" destination="d8H-ru-E1x" id="BXN-te-djD"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="RsV-lq-nYr" id="N6v-3E-1RQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="25"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="MasksForWatch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="MasksForWatch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+    </scenes>
+</document>
