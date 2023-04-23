@@ -7,7 +7,7 @@ App para introducir manualmente el valor diario de cada uno de los anillos de ac
 * Uso de SwiftUI.
 * Uso de SwiftCharts.
 * Persistencia de datos mediante CoreData.
-* Uso de TabView, tablas y gráficas.
+* Uso de TabView, listas y gráficas.
 * Animación de completado de anillos.
 * Vistas de carrusel en horizontal.
 * Arquitectura MVVM.
@@ -24,7 +24,7 @@ You can manually register each ring activity value, as also each running or walk
 * SwiftUI used.
 * SwiftCharts used.
 * CoreData used for data saving.
-* Using TabView, table views and charts.
+* Using TabView, list views and charts.
 * Displaying horizontal carrousel view.
 * Using MVVM arquitecture.
 * iOS target.

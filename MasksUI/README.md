@@ -6,7 +6,7 @@ App para llevar un registro del número de lavados de las mascarillas de tela us
 
 * Uso de SwiftUI.
 * Persistencia de datos mediante JSON y protocolo Codable.
-* Uso de tablas y navegación entre vistas.
+* Uso de listas y navegación entre vistas.
 * Arquitectura MVVM.
 * Target para iOS.
 
@@ -18,6 +18,6 @@ You can register your masks and save how many times you wash each other (masks u
 
 * SwiftUI used.
 * JSON and Codable protocol used for data saving.
-* TableView used and also navigation between views.
+* Lists used and also navigation between views.
 * Using MVVM arquitecture.
 * iOS target.

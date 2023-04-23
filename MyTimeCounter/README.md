@@ -7,7 +7,7 @@ App para llevar un registro de solicitud de eventos y eventos sucedidos. Simplem
 * Uso de SwiftUI.
 * Uso de SwiftCharts.
 * Persistencia de datos mediante JSON y protocolo Codable.
-* Uso de tablas y gráficas.
+* Uso de listas y gráficas.
 * Localización de la app para inglés y español.
 * Arquitectura MVVM.
 * Target para iOS.
@@ -21,7 +21,7 @@ You can register when a event is queried as also when it happens. It's just an a
 * SwiftUI used.
 * SwiftCharts used.
 * JSON file and Codable protocol used for data saving.
-* Usage of table views and charts.
+* Usage of list views and charts.
 * Usage of localizations for English and Spanish languages.
 * Using MVVM arquitecture.
 * iOS target.
