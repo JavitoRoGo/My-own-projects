@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4401073B294DFFBE000714B6 /* DataChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401073A294DFFBE000714B6 /* DataChartView.swift */; };
+		4401073D294E00EA000714B6 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401073C294E00EA000714B6 /* MyViewModel.swift */; };
+		4401073F294E36CE000714B6 /* TrainChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4401073E294E36CE000714B6 /* TrainChartView.swift */; };
+		44010741294E3CCA000714B6 /* ComplexDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44010740294E3CCA000714B6 /* ComplexDataView.swift */; };
+		44A8B707294D020A00C2E395 /* MyRingsWithCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B706294D020A00C2E395 /* MyRingsWithCDApp.swift */; };
+		44A8B709294D020A00C2E395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B708294D020A00C2E395 /* ContentView.swift */; };
+		44A8B70B294D020B00C2E395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A8B70A294D020B00C2E395 /* Assets.xcassets */; };
+		44A8B70E294D020B00C2E395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A8B70D294D020B00C2E395 /* Preview Assets.xcassets */; };
+		44A8B719294D02CB00C2E395 /* RingsCDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B717294D02CB00C2E395 /* RingsCDModel.xcdatamodeld */; };
+		44A8B71B294D04DE00C2E395 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B71A294D04DE00C2E395 /* CoreDataManager.swift */; };
+		44A8B725294D06C200C2E395 /* RingEntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B724294D06C200C2E395 /* RingEntityClass.swift */; };
+		44A8B727294D07AA00C2E395 /* TrainingEntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B726294D07AA00C2E395 /* TrainingEntityClass.swift */; };
+		44A8B734294D0F0400C2E395 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B733294D0F0400C2E395 /* MainView.swift */; };
+		44A8B737294D221A00C2E395 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B736294D221A00C2E395 /* RingView.swift */; };
+		44A8B739294D25C700C2E395 /* ActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B738294D25C700C2E395 /* ActivityRing.swift */; };
+		44A8B73B294D26FA00C2E395 /* ActivityRingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B73A294D26FA00C2E395 /* ActivityRingTip.swift */; };
+		44A8B73D294D280B00C2E395 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B73C294D280B00C2E395 /* ListView.swift */; };
+		44A8B73F294D29F600C2E395 /* AllListedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B73E294D29F600C2E395 /* AllListedView.swift */; };
+		44A8B741294D2A1200C2E395 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B740294D2A1200C2E395 /* AddNewView.swift */; };
+		44A8B743294D2F7000C2E395 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B742294D2F7000C2E395 /* Functions.swift */; };
+		44A8B745294D390A00C2E395 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8B744294D390A00C2E395 /* EditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4401073A294DFFBE000714B6 /* DataChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChartView.swift; sourceTree = "<group>"; };
+		4401073C294E00EA000714B6 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		4401073E294E36CE000714B6 /* TrainChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainChartView.swift; sourceTree = "<group>"; };
+		44010740294E3CCA000714B6 /* ComplexDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexDataView.swift; sourceTree = "<group>"; };
+		44A8B703294D020A00C2E395 /* MyRingsWithCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRingsWithCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A8B706294D020A00C2E395 /* MyRingsWithCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRingsWithCDApp.swift; sourceTree = "<group>"; };
+		44A8B708294D020A00C2E395 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44A8B70A294D020B00C2E395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A8B70D294D020B00C2E395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44A8B718294D02CB00C2E395 /* RingsCDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RingsCDModel.xcdatamodel; sourceTree = "<group>"; };
+		44A8B71A294D04DE00C2E395 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		44A8B724294D06C200C2E395 /* RingEntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingEntityClass.swift; sourceTree = "<group>"; };
+		44A8B726294D07AA00C2E395 /* TrainingEntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingEntityClass.swift; sourceTree = "<group>"; };
+		44A8B733294D0F0400C2E395 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		44A8B736294D221A00C2E395 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		44A8B738294D25C700C2E395 /* ActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRing.swift; sourceTree = "<group>"; };
+		44A8B73A294D26FA00C2E395 /* ActivityRingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingTip.swift; sourceTree = "<group>"; };
+		44A8B73C294D280B00C2E395 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		44A8B73E294D29F600C2E395 /* AllListedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListedView.swift; sourceTree = "<group>"; };
+		44A8B740294D2A1200C2E395 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		44A8B742294D2F7000C2E395 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		44A8B744294D390A00C2E395 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A8B700294D020A00C2E395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A8B6FA294D020A00C2E395 = {
+			isa = PBXGroup;
+			children = (
+				44A8B705294D020A00C2E395 /* MyRingsWithCD */,
+				44A8B704294D020A00C2E395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A8B704294D020A00C2E395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B703294D020A00C2E395 /* MyRingsWithCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A8B705294D020A00C2E395 /* MyRingsWithCD */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B706294D020A00C2E395 /* MyRingsWithCDApp.swift */,
+				44A8B708294D020A00C2E395 /* ContentView.swift */,
+				44A8B716294D029B00C2E395 /* Views */,
+				44A8B714294D025B00C2E395 /* CoreDataModel */,
+				44A8B715294D027200C2E395 /* ViewModel */,
+				44A8B70A294D020B00C2E395 /* Assets.xcassets */,
+				44A8B70C294D020B00C2E395 /* Preview Content */,
+			);
+			path = MyRingsWithCD;
+			sourceTree = "<group>";
+		};
+		44A8B70C294D020B00C2E395 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B70D294D020B00C2E395 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44A8B714294D025B00C2E395 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B717294D02CB00C2E395 /* RingsCDModel.xcdatamodeld */,
+				44A8B71A294D04DE00C2E395 /* CoreDataManager.swift */,
+				44A8B724294D06C200C2E395 /* RingEntityClass.swift */,
+				44A8B726294D07AA00C2E395 /* TrainingEntityClass.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		44A8B715294D027200C2E395 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4401073C294E00EA000714B6 /* MyViewModel.swift */,
+				44A8B742294D2F7000C2E395 /* Functions.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44A8B716294D029B00C2E395 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B732294D0AD600C2E395 /* MainView */,
+				44A8B731294D0AC400C2E395 /* DataChartView */,
+				44A8B730294D0AAF00C2E395 /* TrainChartView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44A8B730294D0AAF00C2E395 /* TrainChartView */ = {
+			isa = PBXGroup;
+			children = (
+				4401073E294E36CE000714B6 /* TrainChartView.swift */,
+				44010740294E3CCA000714B6 /* ComplexDataView.swift */,
+			);
+			path = TrainChartView;
+			sourceTree = "<group>";
+		};
+		44A8B731294D0AC400C2E395 /* DataChartView */ = {
+			isa = PBXGroup;
+			children = (
+				4401073A294DFFBE000714B6 /* DataChartView.swift */,
+			);
+			path = DataChartView;
+			sourceTree = "<group>";
+		};
+		44A8B732294D0AD600C2E395 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B733294D0F0400C2E395 /* MainView.swift */,
+				44A8B735294D206D00C2E395 /* RingView */,
+				44A8B73C294D280B00C2E395 /* ListView.swift */,
+				44A8B73E294D29F600C2E395 /* AllListedView.swift */,
+				44A8B740294D2A1200C2E395 /* AddNewView.swift */,
+				44A8B744294D390A00C2E395 /* EditView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		44A8B735294D206D00C2E395 /* RingView */ = {
+			isa = PBXGroup;
+			children = (
+				44A8B736294D221A00C2E395 /* RingView.swift */,
+				44A8B738294D25C700C2E395 /* ActivityRing.swift */,
+				44A8B73A294D26FA00C2E395 /* ActivityRingTip.swift */,
+			);
+			path = RingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A8B702294D020A00C2E395 /* MyRingsWithCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A8B711294D020B00C2E395 /* Build configuration list for PBXNativeTarget "MyRingsWithCD" */;
+			buildPhases = (
+				44A8B6FF294D020A00C2E395 /* Sources */,
+				44A8B700294D020A00C2E395 /* Frameworks */,
+				44A8B701294D020A00C2E395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRingsWithCD;
+			productName = MyRingsWithCD;
+			productReference = 44A8B703294D020A00C2E395 /* MyRingsWithCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A8B6FB294D020A00C2E395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					44A8B702294D020A00C2E395 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 44A8B6FE294D020A00C2E395 /* Build configuration list for PBXProject "MyRingsWithCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A8B6FA294D020A00C2E395;
+			productRefGroup = 44A8B704294D020A00C2E395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A8B702294D020A00C2E395 /* MyRingsWithCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A8B701294D020A00C2E395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A8B70E294D020B00C2E395 /* Preview Assets.xcassets in Resources */,
+				44A8B70B294D020B00C2E395 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A8B6FF294D020A00C2E395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A8B73B294D26FA00C2E395 /* ActivityRingTip.swift in Sources */,
+				44A8B725294D06C200C2E395 /* RingEntityClass.swift in Sources */,
+				44A8B734294D0F0400C2E395 /* MainView.swift in Sources */,
+				44A8B743294D2F7000C2E395 /* Functions.swift in Sources */,
+				44A8B739294D25C700C2E395 /* ActivityRing.swift in Sources */,
+				4401073B294DFFBE000714B6 /* DataChartView.swift in Sources */,
+				44A8B709294D020A00C2E395 /* ContentView.swift in Sources */,
+				4401073D294E00EA000714B6 /* MyViewModel.swift in Sources */,
+				44A8B727294D07AA00C2E395 /* TrainingEntityClass.swift in Sources */,
+				44A8B737294D221A00C2E395 /* RingView.swift in Sources */,
+				4401073F294E36CE000714B6 /* TrainChartView.swift in Sources */,
+				44A8B719294D02CB00C2E395 /* RingsCDModel.xcdatamodeld in Sources */,
+				44A8B73D294D280B00C2E395 /* ListView.swift in Sources */,
+				44A8B741294D2A1200C2E395 /* AddNewView.swift in Sources */,
+				44A8B745294D390A00C2E395 /* EditView.swift in Sources */,
+				44010741294E3CCA000714B6 /* ComplexDataView.swift in Sources */,
+				44A8B71B294D04DE00C2E395 /* CoreDataManager.swift in Sources */,
+				44A8B707294D020A00C2E395 /* MyRingsWithCDApp.swift in Sources */,
+				44A8B73F294D29F600C2E395 /* AllListedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44A8B70F294D020B00C2E395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44A8B710294D020B00C2E395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A8B712294D020B00C2E395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRingsWithCD/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.MyRingsWithCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44A8B713294D020B00C2E395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyRingsWithCD/Preview Content\"";
+				DEVELOPMENT_TEAM = CHK25YBYJC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JRG79.MyRingsWithCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A8B6FE294D020A00C2E395 /* Build configuration list for PBXProject "MyRingsWithCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A8B70F294D020B00C2E395 /* Debug */,
+				44A8B710294D020B00C2E395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A8B711294D020B00C2E395 /* Build configuration list for PBXNativeTarget "MyRingsWithCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A8B712294D020B00C2E395 /* Debug */,
+				44A8B713294D020B00C2E395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44A8B717294D02CB00C2E395 /* RingsCDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44A8B718294D02CB00C2E395 /* RingsCDModel.xcdatamodel */,
+			);
+			currentVersion = 44A8B718294D02CB00C2E395 /* RingsCDModel.xcdatamodel */;
+			path = RingsCDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44A8B6FB294D020A00C2E395 /* Project object */;
+}
