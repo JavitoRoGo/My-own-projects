@@ -11,7 +11,7 @@ Clásico juego de piedra-papel-tijera modificado a la variante de piedra-papel-t
 
 ## Project started in March 2021.
 
-The classic rock-paper-scisor game modified to the version with rock-paper-scisor-lizzar-Spock.
+The classic rock-paper-scisor game modified to the version with rock-paper-scisor-lizard-Spock.
 
 * UIKit used.
 * iOS and watchOS targets.
