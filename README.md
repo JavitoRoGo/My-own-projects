@@ -14,6 +14,7 @@ Incluye los siguientes proyectos (ver el README de cada uno):
 * MyWines, junio 2022.
 * PruebaML, octubre 2022.
 * RPSLSpock, marzo 2021.
+* PruebaVisionOS, junio 2023.
 
 #
 
@@ -31,3 +32,4 @@ This repository includes the following (see each README file):
 * MyWines, June 2022.
 * PruebaML, October 2022.
 * RPSLSpock, March 2021.
+* PruebaVisionOS, June 2023.
